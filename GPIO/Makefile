@@ -9,7 +9,7 @@ SRC_DIR 	:= $(PRO_DIR)/src
 LINKER_FILE	:= $(PRO_DIR)/linker/STM32F0_discovery_board.ld
 
 COMPILER_DIR 	:= /home/oem/Desktop/make/gcc-arm-none-eabi-10.3-2021.10-x86_64-linux/gcc-arm-none-eabi-10.3-2021.10
-
+//folder arm gcc
 PREFIX_GCC_COMPILER	:= arm-none-eabi
 CC	:= $(COMPILER_DIR)/bin/$(PREFIX_GCC_COMPILER)-gcc
 ASM	:= $(COMPILER_DIR)/bin/$(PREFIX_GCC_COMPILER)-as
